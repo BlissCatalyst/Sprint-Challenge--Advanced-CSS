@@ -1,3 +1,5 @@
+/* navigation */
+/* custom button */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -234,7 +236,10 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn button {
+.home .walk .walk-text .btn {
+  width: 100%;
+}
+.home .walk .walk-text button {
   width: 100px;
   background-color: #22283A;
   color: white;
@@ -242,6 +247,10 @@ footer {
   font-size: 1.8rem;
   border: none;
   border-radius: 5px;
+}
+.home .walk .walk-text button:hover {
+  background-color: white;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
